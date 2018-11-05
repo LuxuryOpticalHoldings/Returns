@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
         <poll doc:name="Poll">
             <db:no-operation-selected config-ref="" doc:name="Database"/>
         </poll>
+        <logger level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
